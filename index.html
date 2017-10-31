@@ -2,17 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<!-- meta viewport -->
   <title> Werenuff: Practice Website </title>
   <!-- when you include normalize.css, it MUST be the FIRST stylesheet -->
-  <link rel="stylesheet" href="css/mycss.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/myScript.js"></script>
-</head>
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	  <link rel="stylesheet" href="css/mycss.css">
+
+</head>
+<body>
   <div class="container">
 
 <h1>By Brooke Henderson</h1>
+
 
 <p>Here I learned how to imput responsive images using Bootstrap and jQuery techniques. </p>
 
@@ -25,56 +27,26 @@
 <p>  I have permission to use these images, as stated <a href="https://www.pexels.com/photo-license/">here.</a> And if you'd like to view <a href="https://github.com/brooke8henderson/newebsite">my GitHub repo</a>, here it is.</p>
 
 <div class="row">
-	<div class="col-6">
-		<img id="one" src="images/one.jpeg" class="sunsets" alt="Responsive image">
+	<div class="col-lg-8">
+		<img id="one" src="images/one.jpeg" class="sunsets img-fluid" alt="Responsive image">
 	</div>
-	<div class="col-6">
+
+	<div class="col-lg-8">
+		<img id="two" src="images/two.jpeg" class="sunsets img-fluid" alt="Responsive image">
 	</div>
-</div>
-
-<div class="row">
-	<div class="col-6">
-		<img id="two" src="images/two.jpeg" class="sunsets" alt="Responsive image">
+	<div class="col-lg-8">
+		<img id="three" src="images/three.jpeg" class="sunsets img-fluid" alt="Responsive image">
 	</div>
-	<div class="col-6">
+	<div class="col-lg-8">
+		<img id="four" src="images/four.jpeg" class="sunsets img-fluid" alt="Responsive image">
 	</div>
-</div>
-<div class="row">
-	<div class="col-6">
-		<img id="three" src="images/three.jpeg" class="sunsets" alt="Responsive image">
-	</div>
-	<div class="col-6">
-	</div>
-</div>
-<div class="row">
-	<div class="col-6">
-		<img id="four" src="images/four.jpeg" class="sunsets" alt="Responsive image">
-	</div>
-	<div class="col-6">
-	</div>
-</div>
-
-</div>
+</div> <!--row close-->
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div><!-- container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/myScript.js"></script>
+</body>
 </html>

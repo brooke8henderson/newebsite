@@ -1,8 +1,10 @@
 .sunsets{
   width: 50%;
-  height: auto;
-  padding: 25px;
+    padding-top:25px;
+    padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
   display: block;
+
+
 }
